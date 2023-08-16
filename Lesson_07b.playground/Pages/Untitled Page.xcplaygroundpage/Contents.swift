@@ -7,17 +7,11 @@ import Foundation
 
 
 enum Level {
-    case beginner
-    case intermediate
-    case advanced
-    case master
+    case beginner, intermediate, advanced, master
 }
 
 enum Сonditioning {
-    case іnjured
-    case poor
-    case good
-    case excellent
+    case іnjured, poor, good,   excellent
 }
 
 class Athlete {
@@ -38,6 +32,11 @@ class Athlete {
 
 class Sport {
     var name = ""
+    
+    var athlete: Athlete
+    init(athlete: Athlete) {
+            self.athlete = athlete
+        }
     var playersCount: UInt = 0
     var pitchAreaSize: UInt = 0
     var refereeCount: UInt = 0
@@ -100,6 +99,5 @@ class Fencing: Sport {
 
 func startGame(team: [Athlete], with: Equipment) {
 }
-
-
+    
 
