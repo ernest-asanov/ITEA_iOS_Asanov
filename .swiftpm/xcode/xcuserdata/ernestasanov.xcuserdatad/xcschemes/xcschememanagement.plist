@@ -33,7 +33,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Lesson_05 (Playground) 1.xcscheme</key>
 		<dict>
@@ -75,7 +75,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Lesson_07b (Playground) 1.xcscheme</key>
 		<dict>

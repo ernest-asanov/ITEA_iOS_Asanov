@@ -18,12 +18,18 @@ class Bird: Animal {
     }
 }
 
-class Cat: Animal {
+class Mammals: Animal {
+    override func voice() {
+        
+    }
+}
+
+class Cat: Mammals {
     override func voice() {
     }
 }
 
-class Dog: Animal {
+class Dog: Mammals {
     override func voice() {
     }
 }
@@ -38,14 +44,14 @@ class Rooster: Bird {
     }
 }
 
-class Cow: Animal {
+class Cow: Mammals {
     override func voice() {
     }
 }
 
 
-func getMilk(cow: Cow) {
+func getMilk(_ animal: Mammals) {
 }
 
-func getEgg(rooster: Rooster) {
+func getEgg(_ animal: Bird) {
 }
