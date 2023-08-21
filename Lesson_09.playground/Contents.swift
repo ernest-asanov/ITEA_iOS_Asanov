@@ -88,9 +88,6 @@ class DesignSystem {
     
 }
 
-
-    
-
 func createEvent(teams: [Team], date, title, place, description) -> Event {
     var event = Event()
     
